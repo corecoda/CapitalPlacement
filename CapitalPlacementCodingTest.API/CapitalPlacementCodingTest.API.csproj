@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CapitalPlacementCodingTest.Application\CapitalPlacementCodingTest.Application.csproj" />
+    <ProjectReference Include="..\CapitalPlacementCodingTest.Infrastructure\CapitalPlacementCodingTest.Infrastructure.csproj" />
+    <ProjectReference Include="..\CapitalPlacementCodingTest.Persistence\CapitalPlacementCodingTest.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
